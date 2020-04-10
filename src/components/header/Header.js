@@ -41,17 +41,16 @@ class Header extends Component {
                 </div>
 
                 <div>
-                    <Switch>
-                        <Route exact path='/wfo-header-react' render={() => <Redirect to={'/home'}/>}/>
-                        <Route exact path='/' render={() => <Redirect to={'/home'}/>}/>
-                        <Route path='/login' component={this.LoginWrapper}/>
-                        <Route path='/home' component={Home}/>
-                        <Route path='/profile' component={Profile}/>
-                        <Route path='/messages' component={Messages}/>
-                        <Route path='/settings' component={Settings}/>
-                        <Route path='/about' component={About}/>
-                        <Route path='*' render={() => <div><Page404/></div>}/>
-                    </Switch>
+                        <Switch>
+                            <Route exact path='/' render={() => <Redirect to={'/home'}/>}/>
+                            <Route path='/login' component={this.LoginWrapper}/>
+                            <Route path='/home' component={Home}/>
+                            <Route path='/profile' component={Profile}/>
+                            <Route path='/messages' component={Messages}/>
+                            <Route path='/settings' component={Settings}/>
+                            <Route path='/about' component={About}/>
+                            <Route path='*' render={() => <div><Page404/></div>}/>
+                        </Switch>
                 </div>
             </div>
         );
