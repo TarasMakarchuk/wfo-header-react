@@ -1,0 +1,92 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1024px) {
+    .NavbarWrapper {
+        width: 100% !important;
+        height: 100% !important;
+        right: 0 !important;
+    }
+
+    .Navbar div:hover {
+        background-color: #E8AD1A;
+        width: 100%;
+        position: relative;
+        padding-right: 6em !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .NavbarWrapper {
+        width: 100% !important;
+        height: 100% !important;
+        right: 0 !important;
+    }
+
+    .Navbar div:hover {
+        background-color: #E8AD1A;
+        width: 100%;
+        position: relative;
+        padding-right: 2em !important;
+    }
+}
+
+.NavbarWrapper {
+    background-color: #282c34;
+    height: 36em;
+    width: 24em;
+    position: absolute;
+    top: 4.2em;
+    padding: 2em 3em 0 0;
+    right: 0.2em;
+    box-shadow: 0 0 10px #282c34;
+    opacity: 0.9;
+    border: 1px solid #E8AD1A;
+    z-index: 1000;
+    animation: fade-in 0.5s linear;
+}
+
+.Navbar {
+    position: relative;
+    line-height: 65px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Navbar div:hover {
+    background-color: #E8AD1A;
+    width: 114%;
+    position: relative;
+    padding-right: 2em;
+    transition: 0.5s;
+}
+
+.Navbar div:visited {
+    border-bottom: 1px solid red;
+}
+
+.Navbar div a {
+    color: white;
+    margin-left: 1em;
+    text-transform: uppercase;
+}
+
+.Navbar div a:hover {
+    color: #282c34;
+}
+
+.Navbar div a:active {
+    color: #ff3c13;
+}
+
+.Navbar svg {
+    float: right;
+    margin-top: 23px;
+}
+

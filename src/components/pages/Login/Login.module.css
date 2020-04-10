@@ -1,0 +1,16 @@
+.LoginContainer {
+    max-width: 40em !important;
+    margin: 2em 0 0 0;
+    float: left;
+    box-shadow: 0 0 10px gray;
+    padding: 1em;
+}
+
+.Authorized {
+    padding-top: 10em;
+}
+
+.Authorized div {
+    box-shadow: 0 0 20px gray;
+}
+

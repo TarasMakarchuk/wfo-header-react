@@ -1,0 +1,9 @@
+#root {
+    width: 100%;
+}
+
+.App {
+    color: #1e7f03;
+    margin: 0 !important;
+    padding: 0 !important;
+}

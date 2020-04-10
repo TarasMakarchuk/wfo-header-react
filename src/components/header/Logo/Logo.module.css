@@ -1,0 +1,11 @@
+.LogoContainer {
+    display: flex;
+    padding: 0.4em;
+    cursor: pointer;
+}
+
+.LogoContainer svg {
+    color: #E8AD1A;
+    font-size: 34px;
+    margin: 0.2em;
+}

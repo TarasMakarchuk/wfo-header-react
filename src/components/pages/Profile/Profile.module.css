@@ -1,0 +1,25 @@
+.Profile {
+    max-width: 40em !important;
+    float: left;
+    margin: 2em;
+}
+
+.Profile div {
+    box-shadow: 0 0 10px gray;
+}
+
+.Profile img {
+    height: 12em;
+    width: 12em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.Profile svg{
+    font-size: 26px;
+    margin: 1em;
+}
+
+.Profile svg:hover{
+    color: #f8c255;
+}

@@ -1,0 +1,14 @@
+.Messages {
+    margin: 3em !important;
+    box-shadow: 0 0 20px gray;
+}
+
+.MessagesForm {
+    margin: 2em 0 0 0 ;
+    box-shadow: 0 0 20px gray;
+    padding: 0.3em !important;
+}
+
+.MessagesForm div{
+    margin: 1.5em auto;
+}

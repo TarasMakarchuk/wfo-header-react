@@ -1,0 +1,21 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.BurgerMenu {
+    position: absolute;
+    margin: 0 0 0 auto;
+    width: 10px;
+    padding: 40px 0 0 40px;
+    right: 90px;
+}
+
+.BurgerMenu nav button {
+    animation: fade-in 1s linear;
+}
