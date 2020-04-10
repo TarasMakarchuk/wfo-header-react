@@ -17,7 +17,6 @@
     .Navbar div:hover {
         background-color: #E8AD1A;
         width: 100%;
-        position: relative;
         padding-right: 6em !important;
     }
 }
@@ -32,7 +31,20 @@
     .Navbar div:hover {
         background-color: #E8AD1A;
         width: 100%;
-        position: relative;
+        padding-right: 4em !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .NavbarWrapper {
+        width: 100% !important;
+        height: 100% !important;
+        right: 0 !important;
+    }
+
+    .Navbar div:hover {
+        background-color: #E8AD1A;
+        width: 100%;
         padding-right: 2em !important;
     }
 }
@@ -89,4 +101,3 @@
     float: right;
     margin-top: 23px;
 }
-
